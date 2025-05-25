@@ -2,13 +2,8 @@ package main
 import ("fmt"; "strings")
 
 func main(){
-	//var integer int = 32;
-	//fmt.Println(integer)
-	//var string = "Hello \nWorld!"
-	//fmt.Println("The string is " + string)
 	fmt.Println(convert("PAYPALISHIRING", 4))
 }
-
 
 func convert(s string, numRows int) string {
     if numRows == 1 {
